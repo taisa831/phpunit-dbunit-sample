@@ -1,0 +1,15 @@
+{
+    "name": "taisa831/phpunit-dbunit-sample",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "phpunit/dbunit": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "taisa",
+            "email": "g5.taisa831@gmail.com"
+        }
+    ],
+    "require": {}
+}

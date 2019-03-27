@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+        bootstrap="app/tests/dbunit/bootstrap.php"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false">
+    <php>
+        <var name="DB_DSN" value="mysql:dbname=board;host=127.0.0.1;charset=utf8;unix_socket=/tmp/mysql.sock;" />
+        <var name="DB_USER" value="board_root" />
+        <var name="DB_PASSWD" value="board_root" />
+        <var name="DB_DBNAME" value="board" />
+    </php>
+
+    <testsuites>
+        <testsuite name="">
+            <directory suffix="Test.php">./app/tests/dbunit/models</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./app/models/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
