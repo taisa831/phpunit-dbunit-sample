@@ -1,7 +1,7 @@
 # Usage
 
 ```
-git@github.com:taisa831/phpunit-dbunit-sample.git
+git clone git@github.com:taisa831/phpunit-dbunit-sample.git
 
 cd phpunit-dbunit-sample.git
 
