@@ -3,3 +3,10 @@ thread:
     id: '1'
     title: 'test'
     created: '2019-03-27 00:00:00'
+comment:
+  -
+    id: '1'
+    thread_id: '1'
+    username: 'taro'
+    body: 'comment'
+    created: '2019-03-27 00:00:00'
